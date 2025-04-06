@@ -32,7 +32,7 @@ PICS = (environ.get('PICS', 'https://telegra.ph/file/2e6547ab07940cc3ef3ea-cc7f3
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/e20b5fdaf217252964202.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/60e8a622b14796e4448ce.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/13702ae26fb05df52667c.jpg")
-SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://telegra.ph/file/378a08d7e1bca338db963-d05a2ded13e2ffa4dd.jpg'))
+SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://telegra.ph/file/acf6320eb063ac1fa5fb2-fafe02e48c9de128f0.jpg'))
 FSUB_PICS = (environ.get('FSUB_PICS', 'https://graph.org/file/7478ff3eac37f4329c3d8.jpg https://graph.org/file/56b5deb73f3b132e2bb73.jpg')).split()  # Fsub pic
 
 # ============================
@@ -55,7 +55,7 @@ MULTI_FSUB = [int(channel_id) for channel_id in environ.get('MULTI_FSUB', '-1002
 # ============================
 # Payment Configuration
 # ============================
-QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/e419f801841c2ee3db0fc.jpg')
+QR_CODE = environ.get('QR_CODE', 'https://telegra.ph/file/acf6320eb063ac1fa5fb2-fafe02e48c9de128f0.jpg')
 OWNER_UPI_ID = environ.get('OWNER_UPI_ID', '7470634722@ptyes')
 
 # ============================

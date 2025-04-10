@@ -76,7 +76,7 @@ CAPTION_LANGUAGES = ["Bhojpuri", "Hindi", "Bengali", "Tamil", "English", "Bangla
 # ============================
 # Verification Settings
 # ============================
-VERIFY = bool(environ.get('VERIFY', False))  # Verification On (True) / Off (False)
+VERIFY = bool(environ.get('VERIFY', True))  # Verification On (True) / Off (False)
 DEENDAYAL_VERIFY_EXPIRE = int(environ.get('DEENDAYAL_VERIFY_EXPIRE', 12))  # Add time in hours
 DEENDAYAL_VERIFIED_LOG = int(environ.get('DEENDAYAL_VERIFIED_LOG', '-1002074744533'))  # Log channel id (make sure bot is admin)
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/+RsQwXu9PiiQ1MjNl')  # How to open tutorial link for verification
@@ -84,9 +84,9 @@ HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/+RsQwXu9PiiQ1MjNl')  
 # ============================
 # Link Shortener Configuration
 # ============================
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK',True))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'instantearn.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', '4d0ef91df5b74f843ba1ef1223d66d86b6f6f81a')
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK',False))
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'techvjlink.site')
+SHORTLINK_API = environ.get('SHORTLINK_API', '05c2d232c88e6c330d37126b6ad85c0b6ecd3d25')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/+RsQwXu9PiiQ1MjNl')  # Tutorial video link for opening shortlink website
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 
